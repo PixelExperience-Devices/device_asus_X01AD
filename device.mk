@@ -270,6 +270,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # Properties
 include $(LOCAL_PATH)/product_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
