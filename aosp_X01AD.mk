@@ -31,8 +31,3 @@ TARGET_VENDOR := asus
 BOARD_VENDOR := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DISC="coral-user 11 RP1A.201005.004 6782484 release-keys"
-
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys"
