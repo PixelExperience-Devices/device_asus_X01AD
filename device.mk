@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     fstab.qcom
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service-sdm
+
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
