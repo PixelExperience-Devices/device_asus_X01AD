@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     fstab.qcom
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.asus_X01AD
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-sdm
