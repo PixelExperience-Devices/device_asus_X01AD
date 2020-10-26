@@ -37,6 +37,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcrypto
 
+# Init
+PRODUCT_PACKAGES += \
+    init.qcom.rc \
+    fstab.qcom
+
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
