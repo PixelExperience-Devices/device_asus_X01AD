@@ -15,6 +15,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit common Pixelexperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
 
 # Inherit device stuff
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
