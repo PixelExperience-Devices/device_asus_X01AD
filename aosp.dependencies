@@ -1,2 +1,13 @@
 [
+  {
+    "repository":  "kernel_asus_X01AD",
+    "target_path": "kernel/asus/X01AD",
+    "branch": "ten"
+  },
+  {
+    "repository":  "vendor_asus_x01ad",
+    "target_path": "vendor/asus/X01AD",
+    "branch": "ten",
+    "remote": "pixel-devices-blobs"
+  }
 ]
