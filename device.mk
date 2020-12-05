@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.r_submix.default \
+    audio.primary.msm8953 \
     audio.usb.default \
     libaudioroute \
     libaacwrapper \
