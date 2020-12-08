@@ -167,6 +167,9 @@ BOARD_VNDK_VERSION := current
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2020-04-05
+
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HOSTAPD_DRIVER := NL80211
