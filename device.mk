@@ -402,6 +402,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# Servicetracker
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.0.vendor \
+    vendor.qti.hardware.servicetracker@1.1.vendor \
+    vendor.qti.hardware.servicetracker@1.2.vendor
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
